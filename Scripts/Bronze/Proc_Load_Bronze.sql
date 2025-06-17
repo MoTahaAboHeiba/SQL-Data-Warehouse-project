@@ -1,7 +1,7 @@
 /*
-===============================================================================
+=======================================================
 Stored Procedure: Load Bronze Layer (Source -> Bronze)
-===============================================================================
+=======================================================
 Purpose:
     This stored procedure loads data into the 'bronze' schema from external CSV files(CRM and ERP files). 
     It performs the following actions:
