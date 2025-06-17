@@ -37,7 +37,7 @@ create or alter procedure bronze.load_bronze as
 					BULK INSERT bronze.CRM_cust_info
 					from 'D:\Work Space\Projects\sql-data-warehouse-project\datasets\source_crm\cust_info.csv'
 					with (
-						FIRSTROW=2,
+						FIRSTROW=2,   --because 1st row contains columns name 
 						FIELDTERMINATOR =',',	-- field delimiter type
 						TABLOCK		-- just for optimization 
 					)
