@@ -1,4 +1,10 @@
---create tables for bronze stage
+/*
+==============================
+create tables for bronze stage
+==============================
+This script creates tables in 'Bronze' Schema,Dropping Existing Tables if they already existed.
+Run this script to re-define the DDL structure of 'bronze' Tables
+*/
 
 CREATE TABLE bronze.CRM_cust_info(
 cst_id int,
