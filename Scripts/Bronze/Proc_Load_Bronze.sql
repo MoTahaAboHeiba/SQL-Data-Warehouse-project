@@ -19,9 +19,9 @@ create or alter procedure bronze.load_bronze as
 		DECLARE @Global_start_time datetime,@Global_end_time datetime
 		DECLARE @start_time datetime,@end_time datetime
 		BEGIN TRY
-			print '																				================================='
-			print '																					Loading The Bronze Layer'
-			print '																				================================='
+			print '												================================='
+			print '												    Loading The Bronze Layer'
+			print '												================================='
 				print '==========================='
 				print '	Loading CRM Tables'
 				print '==========================='
