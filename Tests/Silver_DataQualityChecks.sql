@@ -10,10 +10,9 @@ including:
 -unwanted spaces   -invalid dates
 -inconsistencies.
 Results ensure data accuracy and standardization post-transformation.
-*/
-/*
-Note:
-==============================================================================
+
+
+Note:=========================================================================
     - Run these checks after data loading the Silver Layer.
     - Investigate and resolve any discrepancies found during the checks.
 ===============================================================================
