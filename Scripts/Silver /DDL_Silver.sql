@@ -6,8 +6,6 @@ This script creates tables in 'Silver' Schema,Dropping Existing Tables if they a
 Run this script to re-define the DDL structure of 'Silver' Tables
 */
 
---create tables for Silver Layer
-
 IF OBJECT_ID ('silver.CRM_cust_info','U') is not null
 	DROP table silver.CRM_cust_info
 CREATE TABLE silver.CRM_cust_info(
