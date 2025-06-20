@@ -18,7 +18,7 @@ Note:=========================================================================
 ===============================================================================
 */
 
- --check for NULLs and Dublicates in PK 
+ --check for NULLs and Dublicates in the PK 
 			select cst_id,count(*)
 			from Silver.CRM_cust_info
 			group by cst_id
@@ -38,13 +38,13 @@ Note:=========================================================================
 
 --------------------------------------------------------------
 		-- Check for Silver.CRM_prd_info
-			--check for NULLs and Dublicates in PK 
+			--check for NULLs and Dublicates in the PK 
 
 				select prd_id,count(*)
 				from Silver.CRM_prd_info
 				group by prd_id
 				having count(*)>1 or prd_id is null
-					-- Perfect, there are no Dublicates in PK 
+					-- Perfect, there are no Dublicates in the PK 
 
    -- check for unwanted spaces in all string columns
   	
