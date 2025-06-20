@@ -56,7 +56,7 @@ BEGIN
 					--Normalizing cst_marital_status values to readable format
 			,case upper(TRIM(cst_gndr))
 				when 'F' then 'Female'
-				when 'M' then 'male'
+				when 'M' then 'Male'
 				else 'unknowen' -- handling missing values 
 			end as cst_gndr
 					--Normalizing cst_gndr values to readable format
