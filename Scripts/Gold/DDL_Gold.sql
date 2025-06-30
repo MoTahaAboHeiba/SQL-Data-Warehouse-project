@@ -66,7 +66,7 @@ CREATE VIEW gold.fact_Sales as
 	  ,sls_price as Price
       ,sls_quantity as Quantity
 	  ,sls_sales as Sales_Amount
-  FROM bronze.CRM_sales_details as sd
+  FROM silver.CRM_sales_details as sd
   LEFT JOIN gold.dim_Product as dp
 	on(dp.Product_number = sd.sls_prd_key)
   LEFT JOIN  gold.dim_customer as dc
