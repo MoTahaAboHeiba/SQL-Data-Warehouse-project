@@ -29,13 +29,14 @@ CREATE TABLE bronze.CRM_sales_details(
 sls_ord_num varchar(50) ,
 sls_prd_key varchar(50) ,
 sls_cust_id int,
-sls_order_dt int,
-sls_ship_dt int,
-sls_due_dt int,
+sls_order_dt date,
+sls_ship_dt date,
+sls_due_dt date,
 sls_sales int,
 sls_quantity int,
 sls_price int
 )
+
 
 
 CREATE TABLE bronze.ERP_CUST_AZ12(
